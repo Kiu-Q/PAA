@@ -14,5 +14,5 @@ But rather than future food problem, I begin this project because I am planting 
 ## Target group
 Basically I am glad that all citizens who are planting can use my project.
 
-##　Plan
+## Plan
 PAA is easy to use, only two steps are required. First, enter the four needed varible, which are temperature, himidity, light intensity and soil moisture. If the user don't know the information, fill in N/A. Second and the last, the program will give out a mark (0-100) that represent the suitable level of the environment. In mostly cases, upper than 50 is ok for planting, however, if lower than 50, PAA will give out which variable is the worest for planting.
