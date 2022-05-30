@@ -16,14 +16,15 @@ def average(list):
 def worest(list):
     list=sorted(list)
     lower=list[0]
-    for Key, Value in mark:
-        if lower==Value:
-            return Key
+    for key, value in mark.items():
+        if lower==value:
+            return key
 
-temp=input("Enter temperature: ")
-humi=input("Enter humidity: ")
-light=input("Enter light intensity: ")
-sMois=input("Enter soil moisture: ")
+temp=input("Enter temperature (°C): ")
+humi=input("Enter humidity (%): ")
+light=input("Enter light (hr): ")
+sMois=input("Enter soil moisture (%): ")
+print("Processing...")
 tMark=checkT(temp)
 hMrak=checkH(humi)
 lMark=checkL(light)
